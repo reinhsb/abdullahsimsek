@@ -1,8 +1,18 @@
 body{
 
-	background-color:#2af199;
+	background-color:#d80019;
+	text-align:center;
+	
 
 	
+	
+	
+	
+	
+}
+.rsm{
+	margin-top:40px;
+
 	
 	
 	
@@ -23,15 +33,14 @@ body{
 
 
 
+.klnncıadi input   {
 
-.klnncıadi input {
-
-	
+	padding-left:15px;
 	height:40px;
 	width:200px;
   border: 2px solid black;
   border-radius: 20px;
-  
+ 
 	
 	
 	
@@ -42,7 +51,8 @@ body{
 .gndr input:hover {
 	
 
-background-color:#ced3d1;
+background-color:#bab0b1;
+
 
 
 
@@ -58,18 +68,23 @@ background-color:#ced3d1;
 
 
 .gndr{
-	margin-left:50px;
+	margin-left:15px;
 	
 	
 	
 	
 }
+
+
 .gndr input{
 	
-	height:30px;
+
+	
+	height:40px;
 	width:100px;
+	color:white;
 	  border: 2px solid black;
   border-radius: 20px;
-  background-color:#38bb81;
+  background-color:#000000;
 	
 }
