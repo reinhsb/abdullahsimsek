@@ -1,39 +1,21 @@
 <html>
-
-<head>
-<link rel="stylesheet" type="text/css" href="stl.css">
-
-<title> ABDULLAH ŞİMŞEK  </title>
-</head>
-
 <body>
-<div class="rsm">
-<img width="100" src="img_184513.png">
-</div>
-
-
-<div class="klnncıadi">
-
-<form>	
-
-  <input type="text" placeholder="  Kullanıcı Adınız"> <br> <br> 
+<form action="getir.php" method="POST">
+<table border="1x">
+ <tr> <td> Adiniz: </td> <td> <input type="text" name="adi"> </td> <tr>
+ <tr> <td> SoyAdiniz: </td> <td> <input type="text" name="sadi"> </td> <tr>
+<tr> <td> Cinsiyetiniz: </td> <td> Erkek <input type="radio" name="cins" value="Erkek"> </td>  <tr>
+<tr> <td>  </td> <td> Kadin <input type="radio" name="cins" value="Kadın"> </td>  <tr>
+  <tr> <td> Dogum Tarihi: </td> <td> <input type="date" name="dt"> </td> <tr>
+  <tr> <td> Mail </td> <td> <input type="email" name="epos"> </td> <tr>
  
-  <input type="password" placeholder="  Şifreniz"> <br> <br>
  
-
-
-
-
+ 
+ 
+ 
+ 
+ <tr> <td>  </td>  <td> <input type="submit">  <input type="reset"> </td>  <tr>
+</table>
 </form>
- </div>
- <div class="gndr">
- <form>
- <input type="submit" >
- 
- </form>
-  </div>
-</body>
-
-
-
+<body>
 </html>
